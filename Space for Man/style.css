@@ -1,0 +1,44 @@
+.banner {
+    width: 100%;
+}
+
+.principal {
+    background-color: #cccccc;
+}
+
+.titulo-cetralizado {
+    text-align: center;
+}
+
+em strong {
+    color: red;
+
+}
+
+.missao {
+    font-size: 20px;
+}
+
+
+
+.beneficios {
+    background-color: #fff;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.lista-beneficios{
+    display: inline-block;
+    vertical-align: top;
+     margin-right: 15%;
+     width: 20%;
+    
+}
+
+.imagembeneficios{
+    width: 50%;
+   
+}
+/* Fizemos esse css para a pagina principal afins de deixa o site com stilo*/

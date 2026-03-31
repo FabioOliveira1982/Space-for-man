@@ -1,0 +1,33 @@
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}/*Position: relative para posicionar mediante a posição original dele 
+
+Width: colocamos uma largura para melhor distribuir o espaço entre o logo e o menu:
+
+Margin: O auto para centralizar automaticamente tanto para a direita com para esquerda.  
+
+*/
+nav {
+  position: absolute;
+  top: 126px;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 22px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+/* fizemoa esta pasta produto para trabalhar separadamente da principal*/
