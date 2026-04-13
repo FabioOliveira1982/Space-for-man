@@ -34,58 +34,33 @@ nav a {
 /* fizemoa esta pasta produto para trabalhar separadamente da principal*/
 nav a:hover {
   color: #c78c19;
-  text-decoration: underline;
-}
-.produtos {
-  width: 940px;
-  margin: 0 auto;
-  padding: 50px 0;
-}
-.produtos li {
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-  vertical-align: top;
-  margin: 0 1.5%;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  border: solid 2px #000000;
-  border-radius: 10px;
-}
-.produtos li:hover {
-  border-color: #c78c19;
-}
-.produtos li:active {
-  border-color: #088c19;
-}
-.produtos li:hover h2{
-  font-size: 34px;
+  text-decoration: underline;}
+  .contato {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  form label {
+    display: block;
+    
+    
+  }
+  form input {
+    display: block;
+    
+    margin-bottom: 20px;
 
-  
-  
-}
-.produtos h2 {
-  font-size: 30px;
-  font-weight: bold;
-}
 
-.produtos-descrição {
-  font-size: 18px;
-}
-
-.produtos-preço {
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-footer {
-  background-image: url('./Img/footer-bg.jpg');
+    
+  }
+  footer {
+  background-image: url(./Img/bg.jpg);
   padding: 40px 0;
   text-align: center;
 }
 .copy {
   color: #ffffff;
   font-size: 16px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
+ 
