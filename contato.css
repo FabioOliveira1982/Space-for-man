@@ -29,31 +29,37 @@ nav a {
   font-size: 22px;
   font-weight: bolder;
   text-decoration: none;
-
-} 
+}
 /* fizemoa esta pasta produto para trabalhar separadamente da principal*/
 nav a:hover {
   color: #c78c19;
-  text-decoration: underline;}
-  .contato {
-    width: 940px;
-    margin: 0 auto;
-    padding: 20px 0;
-  }
-  form label {
-    display: block;
-    
-    
-  }
-  form input {
-    display: block;
-    
-    margin-bottom: 20px;
+  text-decoration: underline;
+}
+.contato {
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+form {
+  margin: 40px 0;
+}
+form label {
+  display: block;
+  margin: 0 0 10px;
+}
+.input-padrao {
+  display: block;
+   margin-bottom:  20px;
+  padding: 10px 20px;
+  width: 50%;
 
-
-    
-  }
-  footer {
+ 
+}
+footer {
   background-image: url(./Img/bg.jpg);
   padding: 40px 0;
   text-align: center;
@@ -63,4 +69,3 @@ nav a:hover {
   font-size: 16px;
   margin-top: 10px;
 }
- 
