@@ -1,44 +1,44 @@
-.banner {
-    width: 100%;
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;}
+  .caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+} /*Position: relative para posicionar mediante a posição original dele 
+
+Width: colocamos uma largura para melhor distribuir o espaço entre o logo e o menu:
+
+Margin: O auto para centralizar automaticamente tanto para a direita com para esquerda.  
+
+*/
+nav {
+  position: absolute;
+  top: 126px;
+  right: 0;
 }
-
-.principal {
-    background-color: #cccccc;
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
 }
-
-.titulo-cetralizado {
-    text-align: center;
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 22px;
+  font-weight: bolder;
+  text-decoration: none;
 }
-
-em strong {
-    color: red;
-
+/* fizemoa esta pasta produto para trabalhar separadamente da principal*/
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
 }
-
-.missao {
-    font-size: 20px;
+footer {
+  background-image: url(./Img/bg.jpg);
+  padding: 40px 0;
+  text-align: center;
 }
-
-
-
-.beneficios {
-    background-color: #fff;
+.copy {
+  color: #ffffff;
+  
 }
-
-.itens {
-    font-style: italic;
-}
-
-.lista-beneficios{
-    display: inline-block;
-    vertical-align: top;
-     margin-right: 15%;
-     width: 20%;
-    
-}
-
-.imagembeneficios{
-    width: 50%;
-   
-}
-/* Fizemos esse css para a pagina principal afins de deixa o site com stilo*/

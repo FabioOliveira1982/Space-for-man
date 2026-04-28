@@ -47,18 +47,59 @@ main {
 form {
   margin: 40px 0;
 }
-form label {
+form label,
+form legend {
   display: block;
+  font-size: 20px;
   margin: 0 0 10px;
 }
 .input-padrao {
   display: block;
-   margin-bottom:  20px;
+  margin-bottom: 20px;
   padding: 10px 20px;
   width: 50%;
-
- 
 }
+.checkbox {
+  margin: 20px 0;
+}
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background-color: #c78c19;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.enviar:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transform: scale(1.1) rotate(5deg);
+}
+table{
+    /* aumento o espaço externo tanto para cima com para baixo */
+    margin: 20px  0 40px;
+}
+
+thead{
+    /*  colocamos uma cor de fundo no cabeçalho da tabela*/
+    background-color: #555555;
+    /* mudamos a cor da letra para branco */
+    color: white;
+    /* Demos um peso para fonte(deixamos mais incorpada)*/
+    font-weight: bold;
+}
+
+td, th{
+    /* colocamos uma borda em nossa tabela da cor preta*/
+    border: solid 1px #000000;
+    /* aumentamos o espaço interno da nossa tabela*/
+    padding: 8px 15px;
+}
+
 footer {
   background-image: url(./Img/bg.jpg);
   padding: 40px 0;
@@ -68,4 +109,5 @@ footer {
   color: #ffffff;
   font-size: 16px;
   margin-top: 10px;
+  
 }
